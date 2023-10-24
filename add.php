@@ -8,7 +8,10 @@
 </head>
 <body>
 	<form action="add.php" method="POST">
-		<table width="50%" class="mt-4 m-5">
+			<div class="container d-flex justify-content-center p-3">
+			<h1>Tambah Data</h1>
+			</div>
+		<table width="50%" class="mt-4 m-5" cellpadding="10"> 
 			<tr>
 				<td>Nama lengkap</td>
 				<td><input type="text" name="namaguru" class="form-control border-dark"></td>
